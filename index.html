@@ -11,23 +11,19 @@
         <label id="email-label" for="email">Your email</label>
         <input type="email" id ="email" name="email" placeholder= "max@evilcorp.ru" prequired><br>
         <label id=" number-label" for="number">Your age</label>
-        <input type="number" id ="number" name="age" min="1" max="10" placeholder="your age" required><br>
+        <input type="number" id ="number" name="age" min="1" max="99" placeholder="your age" required><br>
         <label for="dropdown">Do you like cheese?</label>
         <select id ="dropdown">
             <option value= "Blank" >Please select...</option>
             <option value= "Yes" >I love cheese</option>
             <option value= "No" >No, not really</option>
         </select><br>
-        <label for="radio">Are you a male or female</label>
-        <input type="radio" name="male-button" value="male">
-        <label for="male">Male</label>
-        <input type="radio" name="female-button" value="female">
-        <label for="female">Female</label>
+        <label for="radio">Are you a male or female?</label>
+        <label><input type="radio" name="male-female" value="male">Male</label>
+        <label><input type="radio" name="male-female" value="female">Female</label>
         <label for="check">What's your favorite?</label>
-        <input type="checkbox" id="check" name="Bike" value="Bike">
-        <label for="check">Bike</label>
-        <input type="checkbox" id="check" name="Skate" value="Skate">
-        <label for="check">Skate</label>
+        <label><input type="radio" name="bike-scate" value="bike">Bike</label>
+        <label><input type="radio" name="bike-skate" value="skate">Skate</label>
         <label for="comments">Leave a comment</label><br>
     <textarea  id="comments" rows= "4" cols="50" name="comment">
     Enter text here...
